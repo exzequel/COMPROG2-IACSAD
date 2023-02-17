@@ -2,4 +2,7 @@
 
 Compilation of Laboratory Activites and Practice Exercises (etc.) in COMPROG2
 
+### COMPROG2_LAB_ACT1
+
+Simple Java Library System for viewing, borrowing, and returning books.
 
