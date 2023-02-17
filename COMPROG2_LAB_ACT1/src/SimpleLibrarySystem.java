@@ -19,6 +19,7 @@ public class SimpleLibrarySystem {
                 // [1] View
                 case 1:
                     System.out.println("[1] VIEW BOOKS");
+
                     System.out.println("\nLIST OF BOOKS\n"
                             + "1. " + title1 + "\n"
                             + "2. " + title2 + "\n"
@@ -29,6 +30,28 @@ public class SimpleLibrarySystem {
                 case 2:
                 // [2] Borrow
                     System.out.println("[2] BORROW BOOKS");
+
+                    int borrowBook = Integer.parseInt(JOptionPane.showInputDialog("Choose a book: "));
+                    String name = JOptionPane.showInputDialog("Name: ");
+
+                    switch (borrowBook) {
+                        case 1:
+                            System.out.println(title1 + " is borrowed by " + name);
+                            break;
+                        case 2:
+                            System.out.println(title2 + " is borrowed by " + name);
+                            break;
+                        case 3:
+                            System.out.println(title3 + " is borrowed by " + name);
+                            break;
+                        case 4:
+                            System.out.println(title4 + " is borrowed by " + name);
+                            break;
+                        case 5:
+                            System.out.println(title5 + " is borrowed by " + name);
+                            break;
+                    }
+
                     break;
                 case 3:
                 // [3] Return
