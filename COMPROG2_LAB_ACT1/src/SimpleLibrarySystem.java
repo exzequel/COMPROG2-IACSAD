@@ -16,7 +16,7 @@ public class SimpleLibrarySystem {
 
         while (true) {
 
-            int choice = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose a transaction [1] View [2] Borrow [3] Return: "));
+            int choice = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose a transaction [1] View [2] Borrow [3] Return [4] Exit: "));
 
             switch (choice) {
                 // [1] View
@@ -110,6 +110,11 @@ public class SimpleLibrarySystem {
                     }
 
                     break;
+                case 4:
+                    // [4] Exit - Process Completed
+                    System.out.println("[4] EXIT");
+                    System.out.println("Process Completed.");
+                    return;
                 default:
                     System.out.println("[] Invalid Option. Please Try Again.");
             }
