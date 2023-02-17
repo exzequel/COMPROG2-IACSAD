@@ -12,6 +12,7 @@ public class SimpleLibrarySystem {
         String title5 = "Deep Work - Cal Newport";
 
         int borrowedBook = 0;
+        String borrowedTitle = "";
 
         while (true) {
 
@@ -38,18 +39,28 @@ public class SimpleLibrarySystem {
 
                     switch (borrowBook) {
                         case 1:
+                            borrowedBook = 1;
+                            borrowedTitle = title1;
                             System.out.println(title1 + " is borrowed by " + name);
                             break;
                         case 2:
+                            borrowedBook = 2;
+                            borrowedTitle = title2;
                             System.out.println(title2 + " is borrowed by " + name);
                             break;
                         case 3:
+                            borrowedBook = 3;
+                            borrowedTitle = title3;
                             System.out.println(title3 + " is borrowed by " + name);
                             break;
                         case 4:
+                            borrowedBook = 4;
+                            borrowedTitle = title4;
                             System.out.println(title4 + " is borrowed by " + name);
                             break;
                         case 5:
+                            borrowedBook = 5;
+                            borrowedTitle = title5;
                             System.out.println(title5 + " is borrowed by " + name);
                             break;
                     }
