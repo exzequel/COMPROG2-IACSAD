@@ -63,6 +63,9 @@ public class SimpleLibrarySystem {
                             borrowedTitle = title5;
                             System.out.println(title5 + " is borrowed by " + name);
                             break;
+                        default:
+                            System.out.println("Book Not Found.");
+                        break;
                     }
 
                     break;
@@ -73,7 +76,26 @@ public class SimpleLibrarySystem {
                     int returnBook = Integer.parseInt(JOptionPane.showInputDialog("Choose a book: "));
 
                     if (returnBook != borrowedBook) {
-                        System.out.println(returnBook + " is not borrowed.");
+                        switch (returnBook) {
+                            case 1:
+                                System.out.println(title1 + " is not borrowed.");
+                                break;
+                            case 2:
+                                System.out.println(title2 + " is not borrowed.");
+                                break;
+                            case 3:
+                                System.out.println(title3 + " is not borrowed.");
+                                break;
+                            case 4:
+                                System.out.println(title4 + " is not borrowed.");
+                                break;
+                            case 5:
+                                System.out.println(title5 + " is not borrowed.");
+                                break;
+                            default:
+                                System.out.println("Book Not Found.");
+                                break;
+                        }
                     }
                     else {
                         String penalty = JOptionPane.showInputDialog("Penalty [Y] Yes [N] No: ");
@@ -89,7 +111,7 @@ public class SimpleLibrarySystem {
 
                     break;
                 default:
-                    System.out.println("Invalid Option. Please Try Again.");
+                    System.out.println("[] Invalid Option. Please Try Again.");
             }
 
         }
