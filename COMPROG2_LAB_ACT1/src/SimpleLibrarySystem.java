@@ -102,10 +102,10 @@ public class SimpleLibrarySystem {
                         if (penalty.equalsIgnoreCase("Y")){
                             int days = Integer.parseInt(JOptionPane.showInputDialog("No. of days: "));
                             System.out.println("Penalty is: " + days * 20.00);
-                            System.out.println(returnBook + " is now RETURNED");
+                            System.out.println(borrowedTitle + " is now RETURNED");
                         }
                         else {
-                            System.out.println(returnBook + " is now RETURNED");
+                            System.out.println(borrowedTitle + " is now RETURNED");
                         }
                     }
 
