@@ -107,6 +107,8 @@ public class SimpleLibrarySystem {
                         else {
                             System.out.println(borrowedTitle + " is now RETURNED");
                         }
+                        borrowedBook = 0;
+                        borrowedTitle = "";
                     }
 
                     break;
