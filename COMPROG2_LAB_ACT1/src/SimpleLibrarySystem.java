@@ -11,6 +11,8 @@ public class SimpleLibrarySystem {
         String title4 = "How To Win Friends And Influence People - Dale Carnegie";
         String title5 = "Deep Work - Cal Newport";
 
+        int borrowedBook = 0;
+
         while (true) {
 
             int choice = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose a transaction [1] View [2] Borrow [3] Return: "));
@@ -56,6 +58,24 @@ public class SimpleLibrarySystem {
                 case 3:
                 // [3] Return
                     System.out.println("[3] RETURN BOOKS");
+
+                    int returnBook = Integer.parseInt(JOptionPane.showInputDialog("Choose a book: "));
+
+                    if (returnBook != borrowedBook) {
+                        System.out.println(returnBook + " is not borrowed.");
+                    }
+                    else {
+                        String penalty = JOptionPane.showInputDialog("Penalty [Y] Yes [N] No: ");
+                        if (penalty.equalsIgnoreCase("Y")){
+                            int days = Integer.parseInt(JOptionPane.showInputDialog("No. of days: "));
+                            System.out.println("Penalty is: " + days * 20.00);
+                            System.out.println(returnBook + " is now RETURNED");
+                        }
+                        else {
+                            System.out.println(returnBook + " is now RETURNED");
+                        }
+                    }
+
                     break;
                 default:
                     System.out.println("Invalid Option. Please Try Again.");
