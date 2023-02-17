@@ -19,6 +19,12 @@ public class SimpleLibrarySystem {
                 // [1] View
                 case 1:
                     System.out.println("[1] VIEW BOOKS");
+                    System.out.println("\nLIST OF BOOKS\n"
+                            + "1. " + title1 + "\n"
+                            + "2. " + title2 + "\n"
+                            + "3. " + title3 + "\n"
+                            + "4. " + title4 + "\n"
+                            + "5. " + title5 + "\n");
                     break;
                 case 2:
                 // [2] Borrow
