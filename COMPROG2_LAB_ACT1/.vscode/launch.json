@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysReview",
+            "request": "launch",
+            "mainClass": "ArraysReview",
+            "projectName": "COMPROG2_LAB_ACT1_bb6b486d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleLibrarySystem",
+            "request": "launch",
+            "mainClass": "SimpleLibrarySystem",
+            "projectName": "COMPROG2_LAB_ACT1_bb6b486d"
+        }
+    ]
+}
