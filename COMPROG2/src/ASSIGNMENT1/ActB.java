@@ -1,4 +1,5 @@
 package ASSIGNMENT1;
+// COMPROG2 ASSIGNMENT 1 - ACTIVITY B
 
 public class ActB {
     public static void main(String[] args) {
