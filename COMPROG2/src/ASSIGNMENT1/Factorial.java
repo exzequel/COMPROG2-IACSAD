@@ -1,5 +1,5 @@
+package ASSIGNMENT1;
 // COMPROG2_ASSIGNMENT1 ACTIVITY A
-// ADIZON, EXEQUEL B. (IACSAD)
 
 import java.io.*;
 

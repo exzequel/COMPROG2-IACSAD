@@ -1,3 +1,4 @@
+package LAB_ACT1;
 public class MultiplicationTable {
     public static void main(String[] args) {
         int x,y;
