@@ -1,5 +1,5 @@
 package LAB_ACT5;
-
+// ADIZON, EXEQUEL B. I-ACSAD
 public class Household {
 
     private int occupants;
