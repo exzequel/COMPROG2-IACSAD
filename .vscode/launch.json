@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TextFieldListeners",
+            "request": "launch",
+            "mainClass": "JavaGUI.TextFieldListeners",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "DemoJLabel",
+            "request": "launch",
+            "mainClass": "JavaGUI.DemoJLabel",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "ButtonExample2",
+            "request": "launch",
+            "mainClass": "JavaGUI.ButtonExample2",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "Frame1",
+            "request": "launch",
+            "mainClass": "JavaGUI.Frame1",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "MainFrame1",
+            "request": "launch",
+            "mainClass": "JavaGUI.MainFrame1",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "MainFrame",
+            "request": "launch",
+            "mainClass": "JavaGUI.MainFrame",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "WindowSample1",
+            "request": "launch",
+            "mainClass": "JavaGUI.WindowSample1",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "JavaGUI.Program1",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
