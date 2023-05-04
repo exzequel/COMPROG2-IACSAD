@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoFrame",
+            "request": "launch",
+            "mainClass": "JavaGUI.DemoFrame",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "GoTooFar",
+            "request": "launch",
+            "mainClass": "SW_ExceptionHandling.GoTooFar",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "RateCalc",
+            "request": "launch",
+            "mainClass": "SW_ExceptionHandling.RateCalc",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
             "name": "TextFieldListeners",
             "request": "launch",
             "mainClass": "JavaGUI.TextFieldListeners",

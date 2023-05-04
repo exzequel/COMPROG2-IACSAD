@@ -4,6 +4,7 @@ import javax.swing.*;
 // Program 5
 public class Frame1 {
     public static void main(String[] args) {
+        
         JFrame frame = new JFrame();
         frame.setBounds(100, 100, 450, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

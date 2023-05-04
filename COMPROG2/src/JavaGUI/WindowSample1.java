@@ -5,6 +5,7 @@ import java.awt.*;
 // Program 2
 public class WindowSample1 {
     public static void main(String[] args) {
+        
         JFrame f = new JFrame();
         f.setVisible(true);
         f.setSize(350, 300);
