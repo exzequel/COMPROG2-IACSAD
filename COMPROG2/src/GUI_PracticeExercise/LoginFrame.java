@@ -33,7 +33,7 @@ public class LoginFrame extends JFrame implements ActionListener {
         userLabel.setBounds(50, 50, 100, 30);
         passwordLabel.setBounds(50, 120, 100, 30);
         userTextField.setBounds(150, 50, 150, 30);
-        passwordField.setBounds(150, 120, 10, 30);
+        passwordField.setBounds(150, 120, 150, 30);
         showPassword.setBounds(150, 150, 150, 30);
         loginButton.setBounds(50, 200, 100, 30);
         resetButton.setBounds(200, 200, 100, 30);
@@ -76,8 +76,14 @@ public class LoginFrame extends JFrame implements ActionListener {
         if (e.getSource() == resetButton) {
             userTextField.setText("");
             passwordField.setText("");
-        } else {
-            passwordField.setEchoChar('*');
+        } 
+        // Coding Part of showPassword JCheckBox
+        if(e.getSource() == showPassword) {
+            if (showPassword.isSelected()) {
+                passwordField.setEchoChar((char) 0);
+            } else {
+                passwordField.setEchoChar('*');
+            }
         }
 
     }
