@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "GUI_PracticeExercise.Login",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
             "name": "DemoFrame",
             "request": "launch",
             "mainClass": "JavaGUI.DemoFrame",
