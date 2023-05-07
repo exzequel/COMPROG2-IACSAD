@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
-// Practice Exercise #3
+// Practice Exercise #2
 
 public class SampleWindowBuilder1 {
     private JFrame frame;
