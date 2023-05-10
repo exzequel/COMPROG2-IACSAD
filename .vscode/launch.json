@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JComboBoxTest",
+            "request": "launch",
+            "mainClass": "WEEK13_14.JComboBoxTest",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "JComboBoxText",
+            "request": "launch",
+            "mainClass": "WEEK13_14.JComboBoxText",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "JComboDemo",
+            "request": "launch",
+            "mainClass": "WEEK13_14.JComboDemo",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "JTextAreaDemo",
+            "request": "launch",
+            "mainClass": "WEEK13_14.JTextAreaDemo",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "TextEx1",
+            "request": "launch",
+            "mainClass": "WEEK13_14.TextEx1",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "PasswordField",
+            "request": "launch",
+            "mainClass": "WEEK13_14.PasswordField",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
+            "name": "ButtonExample",
+            "request": "launch",
+            "mainClass": "WEEK13_14.ButtonExample",
+            "projectName": "COMPROG2-IACSAD_e7731a03"
+        },
+        {
+            "type": "java",
             "name": "SampleWindowBuilder3",
             "request": "launch",
             "mainClass": "GUI_PracticeExercise.SampleWindowBuilder3",
