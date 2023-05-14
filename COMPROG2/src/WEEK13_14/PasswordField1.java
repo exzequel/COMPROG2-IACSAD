@@ -3,7 +3,8 @@ package WEEK13_14;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class PasswordField {
+// Program #2 PasswordField1
+public class PasswordField1 {
     public static void main(String[] args) {
         JFrame f = new JFrame("Password Field Example");
         f.getContentPane().setLayout(null);

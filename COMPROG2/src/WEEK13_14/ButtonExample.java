@@ -3,12 +3,13 @@ package WEEK13_14;
 import java.awt.event.*;
 import javax.swing.*;
 
+// Program #1 ButtonExample
 public class ButtonExample {
     public static void main(String[] args) {
         JFrame f = new JFrame("Button Example");
         f.getContentPane().setLayout(null);
         final JTextField tf = new JTextField();
-        tf.setBackground(null);
+        tf.setBounds(50, 50, 150, 20);
         JButton b = new JButton("Click Here");
         b.setBounds(50, 100, 95, 30);
         b.addActionListener(new ActionListener() {

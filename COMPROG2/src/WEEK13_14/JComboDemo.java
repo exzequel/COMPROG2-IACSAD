@@ -3,6 +3,7 @@ package WEEK13_14;
 import java.awt.*;
 import javax.swing.*;
 
+// Program #6 JComboDemo
 public class JComboDemo extends JFrame {
     JLabel lbl;
     JComboBox fruitChoice;

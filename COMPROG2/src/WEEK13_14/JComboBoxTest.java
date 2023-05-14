@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+// Program #7 JComboBoxTest
 public class JComboBoxTest extends JFrame {
     JComboBox combo;
     JTextField txt;

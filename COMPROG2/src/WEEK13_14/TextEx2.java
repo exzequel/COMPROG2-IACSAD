@@ -1,8 +1,10 @@
 package WEEK13_14;
 
-import javax.swing.JTextField;
+import java.awt.*;
+import javax.swing.*;
 
-public class TextEx2 {
+// Program #4 TextEx2
+public class TextEx2 extends JFrame{
     JLabel lbl;
     JTextField text;
     
@@ -17,7 +19,7 @@ public class TextEx2 {
     }
 
     public static void main(String[] args) {
-        TextEx2 text = new TextEx2();
+        TextEx2 tex = new TextEx2();
 
         tex.setTitle("JTextField Demo");
         tex.setSize(300, 100);

@@ -3,6 +3,7 @@ package WEEK13_14;
 import java.awt.*;
 import javax.swing.*;
 
+// Program #3 TextEx1
 public class TextEx1 extends JFrame {
     JLabel lbl;
 

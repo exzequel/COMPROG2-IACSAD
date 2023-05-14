@@ -3,6 +3,7 @@ package WEEK13_14;
 import java.awt.*;
 import javax.swing.*;
 
+// Program #5 JTextAreaDemo
 public class JTextAreaDemo extends JFrame {
     JTextArea resultArea = new JTextArea(5, 20);
 
@@ -14,7 +15,7 @@ public class JTextAreaDemo extends JFrame {
         con.setLayout(new BorderLayout());
         con.add(scrolllingArea, BorderLayout.CENTER);
 
-        this.setContentPane((con));
+        this.setContentPane(con);
         this.setTitle("JTextArea Demo");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
