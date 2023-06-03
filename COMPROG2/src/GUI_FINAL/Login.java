@@ -1,4 +1,5 @@
 package GUI_FINAL;
+
 // PACKAGE EXERCISE #6
 import java.awt.EventQueue;
 import javax.swing.JFrame;
@@ -36,7 +37,7 @@ public class Login extends JFrame {
     public Login() {
         initialize();
     }
-    
+
     private void initialize() {
         setTitle("LOGIN");
         setBounds(100, 100, 405, 279);
@@ -46,13 +47,12 @@ public class Login extends JFrame {
         JButton btnSubmit = new JButton("SUBMIT");
         btnSubmit.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if(txtPassword.getText().equalsIgnoreCase("gwapo")) {
+                if (txtPassword.getText().equalsIgnoreCase("gwapo")) {
                     Transaction tr = new Transaction();
                     tr.setVisible(true);
                     tr.lblUsername.setText("User: " + txtUsername.getText());
                     dispose();
-                }
-                else
+                } else
                     JOptionPane.showMessageDialog(null, "Invalid password");
             }
         });
@@ -90,8 +90,7 @@ public class Login extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (chkShowPassword.isSelected()) {
                     txtPassword.setEchoChar((char) 0);
-                }
-                else {
+                } else {
                     txtPassword.setEchoChar('*');
                 }
             }
