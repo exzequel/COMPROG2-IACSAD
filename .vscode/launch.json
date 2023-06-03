@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Login",
+      "request": "launch",
+      "mainClass": "GUI_FINAL.Login",
+      "projectName": "COMPROG2-IACSAD_e7731a03"
+    },
+    {
+      "type": "java",
+      "name": "RadioCheckDemo",
+      "request": "launch",
+      "mainClass": "GUI_FINAL.RadioCheckDemo",
+      "projectName": "COMPROG2-IACSAD_e7731a03"
+    },
+    {
+      "type": "java",
+      "name": "AirlineTicketing",
+      "request": "launch",
+      "mainClass": "JavaAirline.AirlineTicketing",
+      "projectName": "COMPROG2-IACSAD_e7731a03"
+    },
+    {
+      "type": "java",
       "name": "TextEx2",
       "request": "launch",
       "mainClass": "WEEK13_14.TextEx2",
